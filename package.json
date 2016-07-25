@@ -1,0 +1,43 @@
+{
+  "name": "window-scroll-position",
+  "version": "1.0.0",
+  "description": "Get the current scroll position of target window",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/standard && ./node_modules/.bin/tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kyungw00k/window-scroll-position.git"
+  },
+  "keywords": [
+    "scroll",
+    "position",
+    "dom"
+  ],
+  "author": "Kyungwook Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyungw00k/window-scroll-position/issues"
+  },
+  "homepage": "https://github.com/kyungw00k/window-scroll-position#readme",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "coverify": "^1.4.1",
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  }
+}
