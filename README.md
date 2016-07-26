@@ -1,8 +1,5 @@
-# window-scroll-position
+# window-scroll-position [![Build Status](https://travis-ci.org/kyungw00k/window-scroll-position.svg?branch=master)](https://travis-ci.org/kyungw00k/window-scroll-position)
 > Get the current scroll position of target window
-
-[![browser support](https://ci.testling.com/kyungw00k/window-scroll-position.png)
-](https://ci.testling.com/kyungw00k/window-scroll-position)
 
 ## Install
 ```

@@ -4,7 +4,8 @@
   "description": "Get the current scroll position of target window",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/standard && ./node_modules/.bin/tape test.js"
+    "prestart": "npm install",
+    "test": "./node_modules/.bin/standard && ./node_modules/.bin/browserify test.js | ./node_modules/.bin/testling | ./node_modules/.bin/coverify"
   },
   "repository": {
     "type": "git",
@@ -25,19 +26,7 @@
     "browserify": "^13.0.1",
     "coverify": "^1.4.1",
     "standard": "^7.1.2",
-    "tape": "^4.6.0"
-  },
-  "testling": {
-    "files": "test.js",
-    "browsers": [
-      "ie/6..latest",
-      "chrome/22..latest",
-      "firefox/16..latest",
-      "safari/latest",
-      "opera/11.0..latest",
-      "iphone/6",
-      "ipad/6",
-      "android-browser/latest"
-    ]
+    "tape": "^4.6.0",
+    "testling": "^1.7.1"
   }
 }
