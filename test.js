@@ -5,8 +5,8 @@ var windowScrollPosition = require('./')
 
 test('window', function (t) {
   document.body.style.position = 'relative'
-  document.body.style.width = '30000px'
-  document.body.style.height = '30000px'
+  document.body.style.width = '31000px'
+  document.body.style.height = '31000px'
 
   window.scrollTo(30000, 30000)
 
