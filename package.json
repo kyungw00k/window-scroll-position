@@ -1,11 +1,11 @@
 {
   "name": "window-scroll-position",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the current scroll position of target window",
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",
-    "test": "./node_modules/.bin/standard && ./node_modules/.bin/browserify test.js | ./node_modules/.bin/testling | ./node_modules/.bin/coverify"
+    "test": "./node_modules/.bin/browserify test.js | ./node_modules/.bin/testling | ./node_modules/.bin/coverify"
   },
   "repository": {
     "type": "git",
