@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/kyungw00k/window-scroll-position#readme",
   "devDependencies": {
-    "browserify": "^16.1.1",
+    "browserify": "^17.0.0",
     "coverify": "^1.4.1",
     "standard": "^11.0.1",
     "tape": "^4.6.0",
