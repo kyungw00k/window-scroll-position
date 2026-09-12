@@ -5,7 +5,7 @@ updates:
   schedule:
     interval: daily
     time: "20:00"
-  open-pull-requests-limit: 10
+  open-pull-requests-limit: 0 # 2026-09: disable updates — dormant repo, update jobs kept failing
   ignore:
   - dependency-name: tape
     versions:
